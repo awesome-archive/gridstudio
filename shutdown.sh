@@ -1,1 +1,3 @@
-docker rm -f gridstudio
+#!/usr/bin/env bash
+
+docker kill gridstudio
